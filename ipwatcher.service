@@ -1,0 +1,17 @@
+[Unit]
+Description=IP Moinitorin
+After=multi-user.target
+After=network.target
+
+[Service]
+Type=idle
+Restart=always
+WorkingDirectory=/home/pi/opt/ipwatcher
+ExecStart=/usr/bin/python3 /home/pi/opt/ipwatcher/ip-mon.py
+User=pi
+Group=pi
+
+
+
+[Install]
+WantedBy=multi-user.target
