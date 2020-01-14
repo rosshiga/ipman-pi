@@ -1,4 +1,3 @@
-# ipman-pi
-IP Man Pi
+# IP Man Pi
 
-A Raspberry Pi IP monitoring agent
+A Raspberry Pi IP monitoring agent that knows martial arts
