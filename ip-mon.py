@@ -11,9 +11,9 @@ import time
 
 
 device = "Waianae-Pi"
-recipients = ["admin-action@okimotocorp.com"]
+recipients = ["oops@okimotocorp.com"]
 gmail_user = 'helpdesk@okimotocorp.com'
-gmail_password = 'jbjyloxswehguyak'
+gmail_password = 'expired this login'
 iplogfile = "iplog.txt"
 
 iplog = open(iplogfile, "r")
